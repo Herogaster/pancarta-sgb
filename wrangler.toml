@@ -1,11 +1,10 @@
 name = "pancartasgb"
+main = "index.js"
 compatibility_date = "2026-05-26"
-# Reemplazá con tu Account ID de Cloudflare
 account_id = "dc13b2cb0be44bd64e418965f37b4019"
 workers_dev = true
-route = ""
 
 [site]
 bucket = "."
 include = ["**/*"]
-exclude = ["wrangler.toml", "package.json", "README-deploy.md"]
+exclude = ["wrangler.toml", "package.json", "README-deploy.md", "index.js"]
