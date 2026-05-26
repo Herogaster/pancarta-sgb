@@ -1,4 +1,4 @@
-name = "pancarta-sgb"
+name = "pancartasgb"
 compatibility_date = "2026-05-26"
 # Reemplazá con tu Account ID de Cloudflare
 account_id = "dc13b2cb0be44bd64e418965f37b4019"
