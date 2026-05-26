@@ -6,6 +6,6 @@ workers_dev = true
 route = ""
 
 [site]
-bucket = "./"
+bucket = "."
 include = ["**/*"]
 exclude = ["wrangler.toml", "package.json", "README-deploy.md"]

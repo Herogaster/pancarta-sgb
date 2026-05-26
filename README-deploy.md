@@ -20,7 +20,7 @@ npx wrangler --version
 npx wrangler login
 ```
 
-3. Editar `wrangler.toml` y reemplazar `REPLACE_WITH_YOUR_ACCOUNT_ID` con tu `account_id`.
+3. Editar `wrangler.toml` y reemplazar `ivanagustingamarra` con tu `account_id`.
 
 4. Publicar el sitio:
 
