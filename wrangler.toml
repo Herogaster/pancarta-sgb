@@ -6,5 +6,4 @@ workers_dev = true
 
 [site]
 bucket = "."
-include = ["**/*"]
-exclude = ["wrangler.toml", "package.json", "README-deploy.md", "index.js"]
+include = ["index.html", "disenopancartaSGB.css", "pancartaSGB.js"]
