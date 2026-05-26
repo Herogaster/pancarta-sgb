@@ -1,0 +1,11 @@
+name = "pancarta-sgb"
+compatibility_date = "2026-05-26"
+# Reemplazá con tu Account ID de Cloudflare
+account_id = "REPLACE_WITH_YOUR_ACCOUNT_ID"
+workers_dev = true
+route = ""
+
+[site]
+bucket = "./"
+include = ["**/*"]
+exclude = ["wrangler.toml", "package.json", "README-deploy.md"]
